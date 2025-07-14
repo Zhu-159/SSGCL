@@ -8,7 +8,6 @@ from torch_geometric.utils import dropout_adj
 import kafnets as kaf
 
 
-# Semantic Attention Module
 class SemanticAttention(nn.Module):
     def __init__(self, channels, reduction_ratio=4):
         super(SemanticAttention, self).__init__()
@@ -24,8 +23,6 @@ class SemanticAttention(nn.Module):
         attention_weights = self.fc(x)
         return x * attention_weights
 
-
-# Structural Attention Module
 class StructuralAttention(nn.Module):
     def __init__(self, input_dim):
         super(StructuralAttention, self).__init__()
