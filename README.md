@@ -15,10 +15,10 @@ Experimental environment: CUDA 11.8
 **Note**: If there is a problem with the torch-sparse installation, please use the link 
 https://pytorch-geometric.com/whl/torch-2.0.0%2Bcu118.html to download the appropriate torch-sparse version.
 
-## Running Training
+## Begin Running
 
 
-### Run Training
+### Run 
 ```bash
 python main.py
 ```
